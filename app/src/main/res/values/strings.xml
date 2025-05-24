@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Аудиоплеер</string>
+
+    <!-- Главный экран -->
+    <string name="song_list_title">Аудиоплеер</string>
+    <string name="song_list_subtitle">Выберите песню для воспроизведения</string>
+    <string name="empty_library_title">Песни не найдены!</string>
+    <string name="empty_library_message">Добавьте MP3 файлы в папку res/raw/ вашего проекта</string>
+
+    <!-- Экран плеера -->
+    <string name="player_title">Аудиоплеер</string>
+    <string name="now_playing">Сейчас играет:</string>
+    <string name="back_button">Назад</string>
+
+    <!-- Управление воспроизведением -->
+    <string name="play_button">▶ Воспроизвести</string>
+    <string name="pause_button">⏸ Пауза</string>
+    <string name="stop_button">⏹ Стоп</string>
+
+    <!-- Управление громкостью -->
+    <string name="volume_title">Громкость</string>
+    <string name="volume_down">Тихо</string>
+    <string name="volume_up">Громко</string>
+
+    <!-- Сообщения об ошибках -->
+    <string name="error_file_not_found">Аудиофайл \'%1$s\' не найден. Убедитесь, что файл находится в папке res/raw/</string>
+    <string name="error_player_init">Ошибка при запуске плеера: %1$s</string>
+    <string name="error_playback">Ошибка при воспроизведении: %1$s</string>
+    <string name="error_stop">Ошибка при остановке: %1$s</string>
+
+    <!-- Логирование -->
+    <string name="log_player_created">MediaPlayer успешно создан для %1$s, ресурс ID: %2$d</string>
+    <string name="log_resource_not_found">Ресурс не найден: %1$s</string>
+    <string name="log_player_released">MediaPlayer освобожден</string>
+    <string name="log_playback_completed">Воспроизведение завершено</string>
+    <string name="log_error_player_creation">Ошибка при создании MediaPlayer</string>
+    <string name="log_error_player_release">Ошибка при освобождении MediaPlayer</string>
+    <string name="log_error_playback">Ошибка при воспроизведении</string>
+    <string name="log_error_pause">Ошибка при постановке на паузу</string>
+    <string name="log_error_stop">Ошибка при остановке</string>
+    <string name="log_error_seek">Ошибка при перемотке</string>
+</resources>
